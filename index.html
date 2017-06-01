@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+<form>
+  <div>
+    <label for="number1">Enter a number:</label>
+    <input id="number1" class="form-control" type="text">
+  </div>
+  <div>
+    <label for="number2">Enter another number:</label>
+    <input id="number2" class="form-control" type="text">
+  </div>
+  <div class="radio">
+  <label>
+    <input type="radio" name="operator" value="add">
+    Add
+  </label>
+  <label>
+    <input type="radio" name="operator" value="subtract">
+    Subtract
+  </label>
+  <label>
+    <input type="radio" name="operator" value="multiply">
+    Multiply
+  </label>
+  <label>
+    <input type="radio" name="operator" value="divide">
+    Divide
+  </label>
+  </div>
+<button type="submit" class="btn">
+Calculate!
+</button>
+</form>
+</body>
+</html>
